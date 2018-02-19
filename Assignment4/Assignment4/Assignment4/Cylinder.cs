@@ -27,7 +27,7 @@ namespace Assignment4
 
         public override string ToString()
         {
-            return "A cylinder with a radius of " + Radius + " and a height of " + Height + " is " + GetArea(Radius, Height) + ".";
+            return "A cylinder with a radius of " + Radius + " inches and a height of " + Height + " inches is " + Math.Round(GetArea(Radius, Height),2) + " inches.";
         }
     }
 }

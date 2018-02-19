@@ -23,7 +23,7 @@ namespace Assignment4 {
 
 
         public override string ToString() {
-            return "The area of a " + Length + " by " + Width + " rectangle is " + GetArea(length,width) + ".";
+            return "The area of a " + Length + " inch by " + Width + " inch rectangle is " + GetArea(Length,Width) + " inches.";
         }
     }
 }
